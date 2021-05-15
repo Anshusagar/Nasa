@@ -5,9 +5,44 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+}
+.map {
+  top:10px;
+  width: 100vw;
+  height: 100vh;
+  position: relative;
+}
+.locationIcon {
+  font-size: 2rem;
+  color: red;
+}
+.location-info {
+  position: absolute;
+  top: 50px;
+  right: 50px;
+  width: 400px;
+  min-height: 200px;
+  padding: 20px;
+  background-color: rgba(0, 0, 0, 0.6);
+  border-radius: 10px;
+  font-size: 18px;
+  color: white;
+}
+.location-info ul {
+  list-style-type: none;
+  padding: 0;
+}
+.location-info li {
+  padding: 5px 0;
+}
+.App{
+  text-align: center;
 }
