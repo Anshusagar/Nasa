@@ -19,7 +19,7 @@ function App() {
   }, []);
   return (
     <div className="App">
-      <h1>Natural Events Plot From NASA</h1>
+      <h1>WildFire</h1>
       <Form>
         <Form.Group controlId="exampleForm.SelectCustom">
           <Form.Label>Events : </Form.Label>
