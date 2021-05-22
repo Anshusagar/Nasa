@@ -20,18 +20,17 @@ function App() {
   return (
     <div className="App">
       <h1>Natural Events Plot From NASA</h1>
-      {/* <Form>
+      <Form>
         <Form.Group controlId="exampleForm.SelectCustom">
-          <Form.Label>Custom select</Form.Label>
+          <Form.Label>Events : </Form.Label>
           <Form.Control as="select" custom>
             <option>WildFire</option>
             <option>Tropical Cyclone</option>
             <option>Cyclone Andres</option>
-            <option>4</option>
-            <option>5</option>
+            
           </Form.Control>
         </Form.Group>
-      </Form> */}
+      </Form>
       {!loading ? <Map eventData={eventData} /> : <h1>...Loading</h1>}
     </div>
   );
